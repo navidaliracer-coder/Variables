@@ -1,0 +1,10 @@
+import math
+
+def circumference(radius):
+    return 2 * math.pi * radius
+
+# Get input from the user
+r = float(input("Enter the radius: "))
+
+# Calculate and print the circumference
+print("The circumference is:", circumference(r))
