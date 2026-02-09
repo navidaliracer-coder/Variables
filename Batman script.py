@@ -9,17 +9,17 @@ class Batman:
     def fight(self):
         print("Fight Batman, FIGHT!!")
 
-class Penguin(Bird):
+class Penguin(Batman):
 
     def __init__(self):
         super().__init__()
         print("The penguin is ready")
 
-        def whoisthis(self):
-            print("The penguin")
+    def whoisthis(self):
+        print("The penguin")
 
-        def run(self):
-            print("RUN PENGUIN RUUUNNNN!!")
+    def run(self):
+        print("RUN PENGUIN RUUUNNNN!!")
 
 
 peggy = Penguin()
