@@ -1,0 +1,4 @@
+Streamlit
+HuggingFace_hub
+Groq
+python-dotnev
